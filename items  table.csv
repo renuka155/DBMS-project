@@ -1,0 +1,7 @@
+item_id,user_id,title,description,category,location,date,type,status,image_path,created_at
+1,1,"Black Wallet","Black wallet found near the library",Accessories,"College Library",2026-10-02,FOUND,ACTIVE,NULL,"2026-10-02 20:49:10"
+2,1,"Blue Water Bottle","Blue bottle found near classroom",Accessories,"College Classroom",2026-10-03,LOST,ACTIVE,NULL,"2026-10-03 15:53:28"
+3,1,"Blue bottle","Blue bottle lost near classroom",Accessories,"College Classroom",2026-10-03,LOST,ACTIVE,NULL,"2026-10-08 10:00:10"
+4,1,"blue bottle","blue bottle near classroom",Accessories,"College Classroom",2026-10-03,LOST,ACTIVE,NULL,"2026-10-08 11:05:12"
+5,1,"Blue pen","lost near classroom",accessoiees,"College Classroom",2026-10-03,LOST,ACTIVE,NULL,"2026-10-08 15:01:22"
+6,1,"pink plastic flower","it is small in size",gifting,playground,2026-10-07,FOUND,ACTIVE,NULL,"2026-10-18 11:37:00"

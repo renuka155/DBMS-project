@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Lost & Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Admin Dashboard</h1>
+        <p>Manage Lost & Found Reports and Claims</p>
+    </header>
+
+    <main>
+        <section class="dashboard-stats">
+
+    <div class="stat-card">
+        <h3>Total Claims</h3>
+        <p id="totalClaims">0</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>Pending Claims</h3>
+        <p id="pendingClaims">0</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>Approved Claims</h3>
+        <p id="approvedClaims">0</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>Rejected Claims</h3>
+        <p id="rejectedClaims">0</p>
+    </div>
+
+</section>
+        <section class="items">
+            <h2>All Submitted Claims</h2>
+
+            <div id="claim-list">
+                <p>Loading claims...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Lost & Found Management System</p>
+    </footer>
+
+    <script src="admin.js"></script>
+</body>
+</html>

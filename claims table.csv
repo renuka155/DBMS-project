@@ -1,0 +1,3 @@
+claim_id,item_id,claimant_id,description,status,created_at
+1,1,1,"This wallet belongs to me. I lost it near the college library.",APPROVED,"2026-10-03 07:03:52"
+2,1,1,"It belongs to me and has my initials.",REJECTED,"2026-10-03 16:25:16"

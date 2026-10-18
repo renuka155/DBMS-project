@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration - Lost & Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Create Account</h1>
+        <p>Join the Lost & Found community</p>
+    </header>
+
+    <main>
+        <section class="items">
+            <div class="item-card" style="margin: auto;">
+                <h2>Register</h2>
+
+                <form id="registerForm">
+                    <label>Full Name</label>
+                    <input type="text" id="name" required>
+
+                    <label>Email</label>
+                    <input type="email" id="email" required>
+
+                    <label>Password</label>
+                    <input type="password" id="password" required>
+
+                    <label>Phone</label>
+                    <input type="tel" id="phone" required>
+
+                    <button type="submit">Register</button>
+                </form>
+
+                <p id="message"></p>
+
+                <p>
+                    Already registered?
+                    <a href="login.html">Login here</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="register.js"></script>
+</body>
+</html>
