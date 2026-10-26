@@ -6,4 +6,14 @@ Features :
           Manage item claims <br>
           Store structured data in MySQL <br>
           Track activity logs using MongoDB <br>
-          
+          <br>
+          ⚙️ Setup <br>
+Clone the repository:
+git clone https://github.com/renuka155/DBMS-project.git
+<br> Configure MySQL and MongoDB.
+Update database settings in application.properties.
+<br> Run the backend from the project folder:
+.\mvnw.cmd spring-boot:run
+          <br>
+          Author<br>
+          RENUKA KUMARI
